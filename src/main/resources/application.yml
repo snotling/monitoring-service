@@ -1,6 +1,19 @@
 spring:
-    application:
-        name: xmock-satellite
+    cloud:
+      discovery:
+        client:
+          simple:
+            instances:
+              xfast:
+                - uri: http://localhost:15000
+                  metadata:
+                    management.context-path: /actuator
+    boot:
+      admin:
+        ui:
+          title: Test configuration
+        cache:
+          max-age: 36000
 
 server:
    port: 9000
