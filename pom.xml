@@ -27,6 +27,17 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<!--<dependency>-->
+			<!--<groupId>com.hazelcast</groupId>-->
+			<!--<artifactId>hazelcast</artifactId>-->
+		<!--</dependency>-->
+
+		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-starter-server</artifactId>
 		</dependency>
